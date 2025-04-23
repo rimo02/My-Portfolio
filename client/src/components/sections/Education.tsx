@@ -17,7 +17,7 @@ const Education: React.FC = () => {
                 <div className="flex flex-col gap-6 p-4">
 
                     <Animation delay='delay-100'>
-                        <Card className='p-4 dark:bg-violet-900'>
+                        <Card className='p-4'>
                             <CardHeader>
                                 <CardTitle className='text-3xl'>KIIT University</CardTitle>
                                 <CardDescription className='md:text-xl text-lg flex justify-between'>Bachelor of Technology in Computer Science and Engineering<br />

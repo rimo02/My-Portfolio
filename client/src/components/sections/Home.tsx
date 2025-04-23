@@ -7,9 +7,9 @@ const Home = () => {
     <div className="min-h-screen flex items-center justify-center px-6 md:px-8 lg:px-12 overflow-auto ">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-10 justify-between w-full md:w-[75%] lg:w-[65%]">
         <Animation delay="delay-200">
-          <div className="text-white text-center md:text-left">
+          <div className="dark:text-white text-center md:text-left">
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-2">Hi,</h1>
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-2">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl mb-2">
               I'm{' '}
               <span className="bg-gradient-to-r from-purple-400 to-indigo-600 bg-clip-text text-transparent">
                 Rimo

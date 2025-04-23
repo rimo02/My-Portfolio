@@ -14,8 +14,8 @@ import Animation from '../ui/Animation';
 
 const Projects: React.FC = () => {
     return (
-        <div className='flex justify-center items-center min-h-screen py-10'>
-            <div className='flex items-center justify-center w-[90%]'>
+        <div className='flex justify-center items-center min-h-screen'>
+            <div className='flex items-center justify-center w-[90%] mt-10'>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
                     {projects.map((project) => (
 

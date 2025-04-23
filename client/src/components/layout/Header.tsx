@@ -39,7 +39,7 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <div className={`fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300 p-2 ${scrolled ? "dark:bg-violet-900/95" : "bg-transparent"}`}>
+    <div className={`fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300 p-2 ${scrolled ? "dark:bg-violet-950/100" : "bg-transparent"}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-2xl font-bold text-gray-800 dark:text-white">
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
 
             <button
               onClick={toggleTheme}
-              className="ml-4 p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition duration-300"
+              className="ml-4 p-2 rounded-full hover:bg-gray-200 dark:hover:bg-violet-800 transition duration-300 cursor-pointer"
               aria-label="Toggle dark mode"
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
