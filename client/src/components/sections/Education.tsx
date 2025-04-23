@@ -20,7 +20,7 @@ const Education: React.FC = () => {
                         <Card className='p-4 dark:bg-violet-900'>
                             <CardHeader>
                                 <CardTitle className='text-3xl'>KIIT University</CardTitle>
-                                <CardDescription className='text-xl flex justify-between'>Bachelor of Technology in Computer Science and Engineering<br />
+                                <CardDescription className='md:text-xl text-lg flex justify-between'>Bachelor of Technology in Computer Science and Engineering<br />
                                     <span className="block text-sm">2021 - 2025</span></CardDescription>
                             </CardHeader>
 

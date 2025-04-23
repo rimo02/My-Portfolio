@@ -23,17 +23,9 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-100 dark:bg-gray-900 py-12">
+    <div className="py-2">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row md:items-center justify-between">
-          <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold text-gray-800 dark:text-white">
-              Portfolio<span className="text-indigo-600">.</span>
-            </h2>
-            <p className="mt-2 text-gray-600 dark:text-gray-400 max-w-md">
-              Creating beautiful, functional web experiences with cutting-edge technologies.
-            </p>
-          </div>
+        <div className="flex flex-col md:flex-row md:items-center justify-center">
           
           <div className="flex flex-col space-y-4">
             <div className="flex space-x-4">
@@ -51,7 +43,7 @@ const Footer: React.FC = () => {
               ))}
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-500">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Rimo Ghosh. All rights reserved.
             </p>
           </div>
         </div>

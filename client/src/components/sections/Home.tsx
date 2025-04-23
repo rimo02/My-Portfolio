@@ -1,9 +1,10 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Animation from '../ui/Animation';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 md:px-8 lg:px-12">
+    <div className="min-h-screen flex items-center justify-center px-6 md:px-8 lg:px-12 overflow-auto ">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-10 justify-between w-full md:w-[75%] lg:w-[65%]">
         <Animation delay="delay-200">
           <div className="text-white text-center md:text-left">
@@ -25,7 +26,7 @@ const Home = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center"
                 >
-                  <Github className="w-4 h-4 md:w-5 md:h-5" />
+                  <Github className="w-4 h-4 md:w-5 md:h-5 mr-2" />
                   <span className="text-sm">GitHub</span>
                 </a>
               </button>
@@ -38,19 +39,19 @@ const Home = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center"
                 >
-                  <Linkedin className="w-4 h-4 md:w-5 md:h-5" />
+                  <Linkedin className="w-4 h-4 md:w-5 md:h-5 mr-2" />
                   <span className="text-sm">LinkedIn</span>
                 </a>
               </button>
               <button
                 className="bg-white/10 text-green-400 hover:bg-green-500/20 hover:text-green-300
                   border-green-500/30 transition-all duration-300
-                  px-3 py-2 rounded-full flex items-center gap-2 md:px-4 md:py-2"
+                  px-3 py-2 rounded-full flex items-center md:px-4 md:py-2"
               >
-                <a href="mailto:ghoshrimo02@gmail.com" className="flex items-center justify-center">
-                  <Mail className="w-4 h-4 md:w-5 md:h-5" />
+                <Link to="/contact  " className="flex items-center justify-center">
+                  <Mail className="w-4 h-4 md:w-5 md:h-5 mr-2" />
                   <span className="text-sm">Contact</span>
-                </a>
+                </Link>
               </button>
             </div>
           </div>

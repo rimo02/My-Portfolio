@@ -9,6 +9,7 @@ import Projects from './components/sections/Projects';
 import Publications from './components/sections/Publications';
 import Education from './components/sections/Education';
 import Contact from './components/sections/Contact';
+import Experience from './components/sections/Experience';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="/publications" element={<Publications />} />
               <Route path="/education" element={<Education />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/experience" element={<Experience/>} />
             </Routes>
           </main>
           <Footer />
