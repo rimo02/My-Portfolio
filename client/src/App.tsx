@@ -17,7 +17,7 @@ function App() {
       <Router>
         <div className="bg-white dark:bg-gradient-to-br from-gray-900 via-purple-950 to-black min-h-screen transition-colors duration-300 w-full">
           <Header />
-          <main>
+          <main className='md:gap-10'>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />

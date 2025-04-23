@@ -2,7 +2,7 @@ import { Moon, Sun, X, Menu } from 'lucide-react';
 import { NavItem } from '../../types';
 import { useTheme } from '../../context/ThemeContext';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
@@ -18,13 +18,28 @@ const navItems: NavItem[] = [
 const Header: React.FC = () => {
   const { isDarkMode, toggleTheme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300 p-2">
+    <div className={`fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300 p-2 ${scrolled ? "dark:bg-violet-900/95" : "bg-transparent"}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-2xl font-bold text-gray-800 dark:text-white">
