@@ -10,16 +10,16 @@ import Publications from './components/sections/Publications';
 import Education from './components/sections/Education';
 import Contact from './components/sections/Contact';
 import Experience from './components/sections/Experience';
-import StarryBackground from './components/ui/AnimatedBackground';
+// import StarryBackground from './components/ui/AnimatedBackground';
 
 function App() {
   return (
     <ThemeProvider>
       <Router>
         {/* <div className="bg-white dark:bg-gradient-to-br from-gray-900 via-purple-950 to-black min-h-screen transition-colors duration-300 w-full"> */}
-        <div className="bg-white dark:bg-[#221b39] min-h-screen transition-colors duration-300 w-full">
+        <div className="bg-white dark:bg-gradient-to-br from-gray-900 via-purple-950 to-black min-h-screen transition-colors duration-300 w-full">
           <Header />
-          <StarryBackground>
+          {/* <StarryBackground> */}
             <main className='md:gap-10'>
               <Routes>
                 <Route path="/" element={<Home />} />
@@ -31,7 +31,7 @@ function App() {
                 <Route path="/experience" element={<Experience />} />
               </Routes>
             </main>
-          </StarryBackground>
+   {/*    </StarryBackground> */}
           <Footer />
         </div>
       </Router>

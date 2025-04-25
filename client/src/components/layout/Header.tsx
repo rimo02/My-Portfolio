@@ -39,7 +39,9 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <div className={`fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300 p-2 ${scrolled ? "dark:bg-violet-950/100" : "bg-transparent"}`}>
+    <div className={`fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300 p-2 backdrop-blur-md ${
+      scrolled ? "bg-violet-300/60 dark:bg-violet-700/60" : "z-101"
+    }`}>    
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-2xl font-bold text-gray-800 dark:text-white">
