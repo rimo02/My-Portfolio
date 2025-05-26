@@ -12,20 +12,28 @@ export default function Footer() {
               © {new Date().getFullYear()} All rights reserved.
             </p>
           </div>
-          
+
           <div className="flex items-center gap-3">
-            <Button variant="ghost" size="icon" aria-label="GitHub">
-              <Github className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon" aria-label="LinkedIn">
-              <Linkedin className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon" aria-label="Twitter">
-              <Twitter className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon" aria-label="Email">
-              <Mail className="h-5 w-5" />
-            </Button>
+            <a href="https://github.com/rimo02" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon" aria-label="GitHub">
+                <Github className="h-5 w-5" />
+              </Button>
+            </a>
+            <a href="https://www.linkedin.com/in/rimo-ghosh-03061b310/" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                <Linkedin className="h-5 w-5" />
+              </Button>
+            </a>
+            <a href="https://x.com/RimoGhosh21" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon" aria-label="Twitter">
+                <Twitter className="h-5 w-5" />
+              </Button>
+            </a>
+            <a href="mailto:your.email@example.com">
+              <Button variant="ghost" size="icon" aria-label="Email">
+                <Mail className="h-5 w-5" />
+              </Button>
+            </a>
           </div>
         </div>
       </div>
