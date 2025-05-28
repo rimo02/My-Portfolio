@@ -24,11 +24,11 @@ const projects = [
     },
     {
         id: "2",
-        title: "SocialWave",
-        tags: ["NextJs", "MongoDB", "Firebase", "AuthJs"],
+        title: "Sociallly",
+        tags: ["NextJs", "MongoDB", "Firebase", "AuthJs", "Redux"],
         image:
             "https://static.vecteezy.com/system/resources/thumbnails/058/570/380/small_2x/digital-marketing-2d-animation-business-social-marketing-concept-characters-create-ads-manage-social-media-campaigns-and-analyze-marketing-data-in-a-scalable-style-video.jpg",
-        projectUrl: "",
+        projectUrl: "https://sociallly-lovat.vercel.app/",
         githubUrl: "https://github.com/rimo02/SocialWave",
         featured: true,
         description:
