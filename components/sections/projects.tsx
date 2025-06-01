@@ -10,6 +10,19 @@ import Image from "next/image";
 
 const projects = [
     {
+        id: "0",
+        title: "StartupConnect",
+        tags: ["Nextjs", "Authjs", "MongoDB", "Firebase", "Shadcn"],
+        image:
+            "https://cdn.prod.website-files.com/67ab2c9cd85b6cb118bf997c/67b1bd6c252e20911347cea0_65d886daaf5d47525887c0e3_65c9d364707f20d739b9991d_5469-1.jpeg",
+        projectUrl: "",
+        githubUrl: "https://github.com/rimo02/StartupConnect",
+        featured: true,
+        description:
+            "Built a full-stack web application for founders to showcase startups and for developers to explore job opportunities. Implemented secure authentication with OAuth and 2FA using Auth.js and GitHub. Integrated Firebase Firestore and Storage for real-time data handling, image uploads, and role-based access. Added features like dynamic filtering, infinite scroll, and leveraged Next.js ISR and Partial Pre-rendering to improve performance, scalability, and SEO.",
+        category: "web",
+    },
+    {
         id: "1",
         title: "ShopEase",
         tags: ["React", "Stripe", "MongoDB", "Firebase", "Express", "Redux"],
@@ -28,8 +41,7 @@ const projects = [
         tags: ["NextJs", "MongoDB", "Firebase", "AuthJs", "Redux"],
         image:
             "https://static.vecteezy.com/system/resources/thumbnails/058/570/380/small_2x/digital-marketing-2d-animation-business-social-marketing-concept-characters-create-ads-manage-social-media-campaigns-and-analyze-marketing-data-in-a-scalable-style-video.jpg",
-        projectUrl: "https://sociallly-lovat.vercel.app/",
-        githubUrl: "https://github.com/rimo02/SocialWave",
+        githubUrl: "https://github.com/rimo02/Sociallly",
         featured: true,
         description:
             "A lightweight, real-time social media platform was built with features for posting, liking, following, and sharing. It uses Next.js for dynamic content fetching and efficient feed updates (via ISR) and integrates secure, user login through OAuth (Google, via Auth.js).",
