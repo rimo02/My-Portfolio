@@ -14,7 +14,6 @@ const experiences = [
         location: "Remote",
         description: [
             "Built a hybrid recommender combining collaborative filtering and CLIP-based content methods with Milvus, boosting product discovery by 20%.",
-            "Designed a Kafka-based feedback pipeline enabling real-time, adaptive recommendations with 30% lower latency.",
             "Built a graph-based recommendation module with Neo4j to identify complementary products, enhancing cross-selling opportunities and increasing average order value"
         ],
         technologies: ["PyTorch", "Kafka", "Neo4j"]
