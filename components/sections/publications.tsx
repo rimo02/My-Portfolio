@@ -14,7 +14,7 @@ const publications = [
         authors: "Dr. Anjan Bandyopadhyay, Pritam Chakraborty, Rimo Ghosh, and Ritobrata Sarkar",
         abstract:
             "Developed a highly efficient custom semantic segmentation model for autonomous vehicles, achieving a Mean IOU (MIoU) of 0.6064 with a remarkably small footprint of just 0.45 million parameters. This lightweight design outperforms conventional models with nearly ten times more parameters. The model was specifically tailored for the complexities of urban driving using the Indian Driving Dataset (IDD), ensuring reliable segmentation in challenging Indian road conditions.",
-        link: "",
+        link: " https://rdcu.be/d7acF",
     },
     {
         id: 2,
