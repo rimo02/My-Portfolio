@@ -18,6 +18,17 @@ const experiences = [
         ],
         technologies: ["PyTorch", "Kafka", "Neo4j"]
     },
+    {
+        id: 2,
+        title: "Systems Engineer",
+        company: "Tata Consultancy Services",
+        duration: "July 2025 - Present",
+        location: "Kolkata, India",
+        description: [
+            "Migrated legacy COBOL programs to Java by understanding existing business logic, converting batch modules, and creating query APIs to access mainframe data sources like DB2, IMS, and QSAM.",
+        ],
+        technologies: ["Java", "MainFrame"]
+    },
 ];
 
 export default function ExperienceSection() {
