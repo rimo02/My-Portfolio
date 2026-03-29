@@ -35,18 +35,18 @@ const projects = [
             "A full-stack e-commerce app using React, Node.js, and Firebase, features JWT authentication with role-based access, secure Stripe payments, paginated product displays, and an admin dashboard. Optimized queries, strong security, and cloud deployment ensure performance and scalability.",
         category: "web",
     },
-    {
-        id: "2",
-        title: "Sociallly",
-        tags: ["NextJs", "MongoDB", "Firebase", "AuthJs", "Redux"],
-        image:
-            "https://static.vecteezy.com/system/resources/thumbnails/058/570/380/small_2x/digital-marketing-2d-animation-business-social-marketing-concept-characters-create-ads-manage-social-media-campaigns-and-analyze-marketing-data-in-a-scalable-style-video.jpg",
-        githubUrl: "https://github.com/rimo02/Sociallly",
-        featured: true,
-        description:
-            "A lightweight, real-time social media platform was built with features for posting, liking, following, and sharing. It uses Next.js for dynamic content fetching and efficient feed updates (via ISR) and integrates secure, user login through OAuth (Google, via Auth.js).",
-        category: "web",
-    },
+    // {
+    //     id: "2",
+    //     title: "Sociallly",
+    //     tags: ["NextJs", "MongoDB", "Firebase", "AuthJs", "Redux"],
+    //     image:
+    //         "https://static.vecteezy.com/system/resources/thumbnails/058/570/380/small_2x/digital-marketing-2d-animation-business-social-marketing-concept-characters-create-ads-manage-social-media-campaigns-and-analyze-marketing-data-in-a-scalable-style-video.jpg",
+    //     githubUrl: "https://github.com/rimo02/Sociallly",
+    //     featured: true,
+    //     description:
+    //         "A lightweight, real-time social media platform was built with features for posting, liking, following, and sharing. It uses Next.js for dynamic content fetching and efficient feed updates (via ISR) and integrates secure, user login through OAuth (Google, via Auth.js).",
+    //     category: "web",
+    // },
     {
         id: "3",
         title: "CollabDocs",
@@ -117,17 +117,17 @@ const projects = [
         githubUrl: "https://github.com/rimo02/TwistGpt",
         featured: true,
     },
-    {
-        id: "9",
-        title: "GoBitly",
-        description:
-            "Developed a URL shortener service using Go and Gin, integrating MongoDB for persistent storage of shortened URLs, expiration details, and click analytics. Performance was optimized through in-memory caching with Redis. A rate-limiting mechanism, based on IP address, was implemented to prevent abuse and ensure high service availability.",
-        category: "web",
-        tags: ["Golang", "MongoDB", "React", "Redis"],
-        image: "https://goo.by/content/avatar/zZnyCd_goo-url-shortener.png",
-        githubUrl: "https://github.com/rimo02/gobitly",
-        featured: true,
-    },
+    // {
+    //     id: "9",
+    //     title: "GoBitly",
+    //     description:
+    //         "Developed a URL shortener service using Go and Gin, integrating MongoDB for persistent storage of shortened URLs, expiration details, and click analytics. Performance was optimized through in-memory caching with Redis. A rate-limiting mechanism, based on IP address, was implemented to prevent abuse and ensure high service availability.",
+    //     category: "web",
+    //     tags: ["Golang", "MongoDB", "React", "Redis"],
+    //     image: "https://goo.by/content/avatar/zZnyCd_goo-url-shortener.png",
+    //     githubUrl: "https://github.com/rimo02/gobitly",
+    //     featured: true,
+    // },
 ];
 
 type Category = "all" | "web" | "Machine Learning";
